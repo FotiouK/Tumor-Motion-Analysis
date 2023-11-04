@@ -25,3 +25,9 @@ The image deformation algorithm is designed to assess tumour motion amplitude th
 <br> The key steps of the image deformation approach are as follows:
 - _Transformation Model_: The algorithm utilises a translation transform to represent motion along each axis.
 -  _Optimisation_: The goal is to find the optimal transformation aligning tumour regions in reference and current frames. The mean squares metric measures dissimilarity by averaging the squared differences of corresponding pixels while a regular step gradient descent is employed to iteratively refine transformation parameters.
+- _Deformation Vector_: After optimisation, the final transform reveals the deformation between two tumour frames. Deformation vectors are then extracted, signifying tumor region displacement.
+- _Displacement Analysis_: Deformation vectors from all frames are accumulated to infer maximum tumor displacement by interpolating vector magnitudes. Directional tumor displacement is also determined by assessing peak-to-peak differences along each of the three axes.
+
+In summary, the image deformation approach achieves its goal through the iterative optimisation of a transformation model to align tumor regions from different phases. Tumor displacement is quantified through deformation vectors, allowing for the extraction of directional motion amplitude and maximum directional displacement.
+
+<img scr ="Images/Deformation_Vector.png">
