@@ -76,7 +76,7 @@ Whether you're a researcher, a medical professional, or an enthusiast interested
 
 ## License 
 This project is provided under the MIT License. You are welcome to use, modify, and distribute the codes presented in the repository under the terms of the MIT License. Please refer to the "LICENSE" file and the accompanying license documentation for full details.
-Please be aware that this project is intended for research purposes only and should not be used for clinical applications. 
+Please be aware that this project was intended for research purposes only.
 
 ## Contact
 If you have any questions, suggestions, or need assistance, please do not hesitate to contact us at kyriakosfotiou1@gmail.com.
