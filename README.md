@@ -40,7 +40,7 @@ The image deformation algorithm is designed to assess tumour motion amplitude th
 - _Displacement Analysis_: Deformation vectors from all frames are accumulated to infer maximum tumor displacement by interpolating vector magnitudes. Directional tumor displacement is also determined by assessing peak-to-peak differences along each of the three axes.
 <img height="150" align="right" src="Images/Deformation_Vector.png">
 </br>
-In summary, the image deformation approach achieves its goal through the iterative optimisation of a transformation model to align tumor regions from different phases. Tumor displacement is quantified through deformation vectors, allowing for the extraction of directional motion amplitude and maximum directional displacement. This process is iterated between all possible tumour phase combinations to identify the maximum overall and directional displacement over the whole breathing phase.
+In summary, the image deformation approach achieves its goal through the iterative optimisation of a transformation model to align tumor regions from different phases. Tumor displacement is quantified through deformation vectors, allowing for the extraction of directional motion amplitude and maximum motion amplitude. This process is iterated between all possible tumour phase combinations to identify the maximum overall and directional displacement over the whole breathing phase.
 
 
 ## Volume Tracking
