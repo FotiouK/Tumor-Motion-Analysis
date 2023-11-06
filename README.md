@@ -70,10 +70,14 @@ While volume variation and tumour movement metrics focus on extreme measurements
 </p>
 
 
+## Getting Started
+Whether you're a researcher, a medical professional, or an enthusiast interested in medical image analysis, our repository offers a comprehensive workflow to delve into the nuances of tumour motion analysis. To begin, explore the detailed documentation and code for each technique presented in the repository. Feel free to refer to the documentation, and please don't hesitate to reach out if you have any questions or feedback.
+
+
 ## License 
 This project is provided under the MIT License. You are welcome to use, modify, and distribute the codes presented in the repository under the terms of the MIT License. Please refer to the "LICENSE" file and the accompanying license documentation for full details.
 Please be aware that this project is intended for research purposes only and should not be used for clinical applications. 
 
 ## Contact
 If you have any questions, suggestions, or need assistance, please do not hesitate to contact us at kyriakosfotiou1@gmail.com.
-<br>Thank you for joining us on identifying personalised proton therapy solutions for lung cancer patients.
+
