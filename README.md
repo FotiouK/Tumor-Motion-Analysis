@@ -6,6 +6,17 @@ Welcome to the Tumour Motion Analysis Repository! This repository is dedicated t
   <img height = 400 src="https://github.com/FotiouK/Motion_Analysis_Python_code/assets/108896534/bf3cb2ae-d1c0-4f3d-b9e0-37ddf711553c">
 </p>
 
+
+## Overview
+In thoracic tumor cases, intrafractional motion has a profound impact on radiation therapy efficacy, particularly in proton beam therapy. This motion encompasses the dynamic internal movements of anatomical structures, including the tumour, organs, and bone structures, induced by the patient's respiratory cycle. Identifying patients who benefit from treatments accounting for minimal motion effects, such as proton pencil beam scanning, is crucial. Intrafractional motion's effects include geometrical misses, proton range uncertainties, and interplay effects. Geometrical misses result from tumor movement and volumetric variations during irradiation, potentially leading to spatial misalignment and target underdosage. Proton range uncertainties stem from dynamic motion of the region, altering the proton’s stopping power and introducing dose uncertainties. Our repository [Optimising Beam Angles in Proton Therapy for Lung Cancer](https://github.com/FotiouK/Optimising_Beam_Angles_in_Proton_Therapy_of_Lung_Cancer) offers an in-depth analysis and a beam optimisation algorithm to minimise proton range uncertainties. For highly modulated therapies like proton therapy pencil beam scanning and X-ray VMAT therapies, interplay effects are vital, causing dose inhomogeneity and creating under- and overdose regions due to the dynamic natures of the beam delivery and the tumour motion.
+<br> The repository is dedicated to evaluating tumour motion based on 4D-CT scans to gain insights into intrafractional motion, with the following algorithms:
+  - **Centre of Mass Displacement:** Quantifying tumour motion through the Centre of Mass (CoM) location of the tumor during the respiratory cycle.
+  - **Image Deformation:** Assessing tumor motion amplitude by registering tumor regions from different phases, revealing deformation vectors.
+  - **Volume Tracking:** Monitoring changes in tumour size throughout the respiratory cycle.
+  - **Voxel-Wise Motion Analysis (Tumor Location Probability Map):** Providing a comprehensive understanding of tumor motion through a Tumor Location Probability (TLP) map.
+
+
+
 ## Centre of Mass Displacement
 
 
@@ -57,3 +68,12 @@ While volume variation and tumour movement metrics focus on extreme measurements
 <p align="center">
   <img  src="Images/pm_planes.png">
 </p>
+
+
+## License 
+This project is provided under the MIT License. You are welcome to use, modify, and distribute the codes presented in the repository under the terms of the MIT License. Please refer to the "LICENSE" file and the accompanying license documentation for full details.
+Please be aware that this project is intended for research purposes only and should not be used for clinical applications. 
+
+## Contact
+If you have any questions, suggestions, or need assistance, please do not hesitate to contact us at kyriakosfotiou1@gmail.com.
+<br>Thank you for joining us on identifying personalised proton therapy solutions for lung cancer patients.
