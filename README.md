@@ -3,7 +3,7 @@ Welcome to the Tumour Motion Analysis Repository! This repository is dedicated t
 
 </br>
 <p align="center">
-  <img height = 400 src="https://github.com/FotiouK/Motion_Analysis_Python_code/assets/108896534/bf3cb2ae-d1c0-4f3d-b9e0-37ddf711553c">
+  <img height = 400 src="Images/4DCT_Animation_p104.gif"
 </p>
 
 
