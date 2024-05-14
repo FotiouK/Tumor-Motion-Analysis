@@ -20,7 +20,7 @@ In thoracic tumour cases, intrafractional motion has a profound impact on radiat
 ## Centre of Mass Displacement
 
 
-The primary focus of this method is to quantify the motion of the tumour based on the position of the Centre of Mass (CoM) of the tumour for each phase of the respiratory cycle. It employs Euclidean geometry to determine the maximum and average displacement, providing essential insights into tumour motion.
+The primary focus of this method is to quantify the motion of the tumour based on the position of the Centre of Mass (CoM) of the tumour at each phase of the respiratory cycle. It employs Euclidean geometry to determine the maximum and average displacement, providing essential insights into tumour motion.
 <br>
 <img height = "330" width = "400"  align ="left" src="Images/Centre_of_Mass.png">
  The CoM coordinate of the tumour volume is calculated for each phase, assuming uniform tumour density. This information is then utilised to generate a 3D scatter plot, visualising the motion of the tumour throughout the breathing cycle.
